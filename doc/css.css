@@ -1,0 +1,828 @@
+@media screen and (min-device-width : 320px) and (max-device-width : 1279px) {
+
+.list2{
+	overflow:hidden;
+	color: #000;
+	margin: 0;
+	padding: 0;	
+	height: 1000px;
+	width: 100%;
+	background-size: cover;
+}
+.text-block{
+	margin-left: 10px;
+	font-size: 40px;
+	font-weight:lighter;
+	font-family: 'Roboto Mono', monospace; 
+	src: url(fonts/RobotoMono-Italic.ttf); 
+}
+
+
+.list3{
+	overflow:hidden;
+	color: #fff;
+	margin: 0;
+	padding: 0;	
+	height: 1600px;
+	width: 100%;
+	background: url("img/bag2.jpg") no-repeat center;
+	background-size: cover;
+}
+.services{
+	overflow:hidden;
+	float: left;
+	margin: 2%;
+	width: 96%;
+	height: 600px;
+}
+.services_size{
+	color: #1a1a1a;
+	overflow:hidden;
+	float: left;
+	margin:  10px;
+	width: 31.5%;
+	height: 610px;
+	background-color: rgba(100%, 100%, 100%, 0.4);
+}
+.ico_photo{
+	margin: 18%;
+	width: 64%
+}
+
+
+#photoshop{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width: 50%;
+  height: 500px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+#montage{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width:50%;
+  height: 500px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+#WEB-design{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width:50%;
+  height: 500px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+
+.list5{
+	overflow:hidden;
+	color: #fff;
+	margin: 0;
+	padding: 0;	
+	height: 1600px;
+	width: 100%;
+	background: url("img/bag3.jpg") no-repeat center ;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+/* НЕ МЕНЯТЬ, ОНО УЖЕ ГОТОВО*/
+.centre{
+	text-align: center;
+}
+.question{
+	font-weight: bold;
+	font-size: 30px;
+}
+.answer{
+	font-size: 27px;
+}
+.h2_G{
+	margin-block-start: 0;
+	padding-top: 40px;
+	font-size: 55px;
+	text-align: center;	
+}
+html,
+body {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*                                                                              *************/
+
+.header{
+	width: 100%;
+	height: 120px;
+	position:relative;
+	background-color: #311452;
+}
+.text {
+    font-size: 0vh;
+    padding-left: 2vh;
+    padding-top: 2vh;
+	position: absolute;
+    color: #fafafa;
+}
+.nav{
+ 	padding-top: 40px;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.nav_a{
+	vertical-align:  top;
+	margin: 0 1vh;
+	color:#fff;
+	text-decoration: none;
+}
+.nav_a:hover{
+	color:#555;
+	transition: color 0.2s linear;
+}
+
+/*                                                                              *************/
+
+.list1{
+	overflow:hidden;
+	color: #fff;
+	height: 100vh;
+	width: 100%;
+	background: url("img/bag.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.h1_list1{
+	margin-block-start: 0;
+	padding-top: 15vh;
+	font-size: 160px;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+}
+.p_list1{
+	color: #fff;
+	font-size: 45px;
+	text-align: center;
+}
+.img_list1{
+	position: relative;
+	height: 65px;
+	display:block;
+    margin: auto;
+}
+
+/*                                                                              *************/
+
+.list4{
+	overflow:hidden;
+	color: #000;
+	margin: 0;
+	padding: 0;	
+	height: 1200px;
+	width: 100%;
+}
+.del{
+	overflow:hidden;
+	line-height: 35px;
+	margin: 10px;
+	float: left;
+	width: 95%;
+	height: 470px;
+	border:7px #e5e5e5  solid;
+	border-radius: 10px;
+	background-color:#ececec; 
+}
+
+.thep_kodi{
+	float: left;
+	padding: 10px;
+	width: 35%;
+	height: 450px;
+}
+.ico_list4{
+	overflow:hidden;
+	float: left;
+	width: 270px;
+	height: 90px;
+}
+.ico{
+	padding: 5px;
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+
+/*                                                                              *************/
+
+.The_end{
+	overflow:hidden;
+	color: #fff;
+	margin: 0;
+	padding: 0;	
+	height: 450px;
+	width: 100%;
+	background: #7e7d7e;	
+}
+.h2_The_end{
+	margin-block-start: 0;
+	padding-top: 60px;
+	font-size: 90px;
+	text-align: center;
+	font-family: 'Solway', serif;
+}
+.img_logo_P{
+	padding: 0.5%;
+	height: 35px;
+	opacity: 1;
+}
+.img_logo_P:hover{
+	transition: 0.5s;
+	opacity: 0.5;
+}
+.CopP{
+	font-size: 40px;
+	text-align: right;
+	text-align: center;
+}
+
+	}
+@media screen and (min-device-width : 1280px) and (max-device-width : 4000px)  {
+@media screen and (max-width : 1279px)  {
+
+
+
+
+
+.list2{
+	color: #000;
+	margin: 0;
+	padding: 0;	
+	height: 1000px;
+	width: 100%;
+	background-size: cover;
+}
+.text-block{
+	margin-left: 10px;
+	font-size: 40px;
+	font-weight:lighter;
+	font-family: 'Roboto Mono', monospace; 
+	src: url(fonts/RobotoMono-Italic.ttf); 
+}
+
+
+
+.list5{
+	color: #fff;
+	margin: 0;
+	padding: 0;	
+	height: 1600px;
+	width: 100%;
+	background: url("img/bag3.jpg") no-repeat center ;
+	background-size: cover;
+}
+
+
+
+/*  */
+.list3{
+	overflow:hidden;
+	color: #fff;
+	margin: 0;
+	padding: 0;	
+	height: 800px;
+	width: 100%;
+	background: url("img/bag2.jpg") no-repeat center;
+	background-size: cover;
+}
+.services{
+	overflow:hidden;
+	float: left;
+	margin: 2%;
+	width: 96%;
+	height: 90vh;
+}
+
+.services_size{
+	color: #1a1a1a;
+	overflow:hidden;
+	float: left;
+	margin-left: 1%;
+	width: 31%;
+	height: 90%;
+	background-color: rgba(100%, 100%, 100%, 0.4);
+}
+.ico_photo{
+	margin-top:50px;
+	width: 50%;
+}
+#photoshop{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width: 50%;
+  height: 500px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+#montage{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width:50%;
+  height: 500px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+#WEB-design{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width:50%;
+  height: 500px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+
+
+
+/* НЕ МЕНЯТЬ, ОНО УЖЕ ГОТОВО*/
+html,
+body {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.centre{
+	text-align: center;
+}
+.question{
+	font-weight: bold;
+	font-size: 25px;
+}
+.answer{
+	font-size: 23px;
+}
+.h2_G{
+	margin-block-start: 0;
+	padding-top: 40px;
+	font-size: 55px;
+	text-align: center;
+}
+
+/*                                                                              *************/
+
+.header{
+	width: 100%;
+	height: 10vh;
+	position:relative;
+	background-color: #311452;
+}
+.text {
+    font-size: 0vh;
+    padding-left: 2vh;
+    padding-top: 2vh;
+	position: absolute;
+    color: #fafafa;
+}
+.nav{
+ 	padding-top: 4vh;
+	font-size: 3vh;
+	text-transform: uppercase;
+	text-align: center;
+}
+.nav_a{
+	
+	vertical-align:  top;
+	margin: 0 1vh;
+	color:#fff;
+	text-decoration: none;
+}
+.nav_a:hover{
+	color:#555;
+	transition: color 0.2s linear;
+}
+
+/*                                                                              *************/
+
+.list1{
+	color: #fff;
+	height: 100vh;
+	width: 100%;
+	background: url("img/bag.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.h1_list1{
+	margin-block-start: 0;
+	padding-top: 15vh;
+	font-size: 20vh;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+}
+.p_list1{
+	color: #fff;
+	font-size: 7vh;
+	text-align: center;
+}
+.img_list1{
+	position: relative;
+	height: 8.1vh;
+	display:block;
+    margin: auto;
+}
+
+/*                                                                              *************/
+
+.list4{
+	color: #000;
+	margin: 0;
+	padding: 0;	
+	height: 1200px;
+	width: 100%;
+}
+.del{
+	overflow:hidden;
+	line-height: 35px;
+	margin: 10px;
+	float: left;
+	width: 95%;
+	height: 470px;
+	border:7px #e5e5e5  solid;
+	border-radius: 10px;
+	background-color:#ececec; 
+}
+.thep_kodi{
+	float: left;
+	padding: 10px;
+	width: 300px;
+	height: 350px;
+}
+.ico_list4{
+	overflow:hidden;
+	float: left;
+	width: 240px;
+	height: 40px;
+}
+.ico{
+	padding: 5px;
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
+/*                                                                              *************/
+
+.The_end{
+	color: #fff;
+	margin: 0;
+	padding: 0;	
+	height: 400px;
+	width: 100%;
+	background: #7e7d7e;	
+}
+.h2_The_end{
+	margin-block-start: 0;
+	padding-top: 30px;
+	font-size: 90px;
+	text-align: center;
+	font-family: 'Solway', serif;
+}
+.img_logo_P{
+	padding: 10px;
+	height: 35px;
+	opacity: 1;
+}
+.img_logo_P:hover{
+	transition: 0.5s;
+	opacity: 0.5;
+}
+.CopP{
+	font-size: 40px;
+	text-align: center;
+}
+	}
+
+
+@media screen and (min-width : 1280px){
+
+.list2{
+	overflow:hidden;
+	color: #000;
+	margin: 0;
+	padding: 0;	
+	height: 70vh;
+	width: 100%;
+	background-size: cover;
+}
+.text-block{
+	margin: 3vh;
+	font-size: 4vh;
+	font-weight:lighter;
+	font-family: 'Roboto Mono', monospace; 
+	src: url(fonts/RobotoMono-Italic.ttf); 
+}
+
+
+
+.list5{
+	overflow:hidden;
+	color: #000;
+	margin: 0;
+	padding: 0;	
+	height: 80vh;
+	width: 100%;
+	background: url("img/bag3.jpg") no-repeat center ;
+	background-size: cover;
+}
+
+
+.list3{
+	overflow:hidden;
+	color: #fff;
+	margin: 0;
+	padding: 0;	
+	height: 800px;
+	width: 100%;
+	background: url("img/bag2.jpg") no-repeat center ;
+	background-size: cover;
+}
+.services{
+	overflow:hidden;
+	float: left;
+	width: 96%;
+	height: 600px;
+}
+.services h3{
+	font-size: 30px;
+}
+
+.ico_photo{
+	width: 300px;
+}
+
+
+#photoshop{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width: 50%;
+  height: 620px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+#montage{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width:50%;
+  height: 620px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+#WEB-design{
+  position: absolute;
+  color: #FFF;
+  overflow:hidden;
+  margin:0 25% 0 25%;
+  width:50%;
+  height: 620px;
+  background-color: rgba(0%, 0%, 0%, 0.7);
+  transition: 0.4s;
+  opacity: 0.2;
+  box-shadow: 0px 0px 0px black;
+}
+
+/* НЕ МЕНЯТЬ, ОНО УЖЕ ГОТОВО*/
+.question{
+	margin-left: 1%;
+	font-weight: bold;
+	font-size: 20px;
+}
+.answer{
+	line-height: 3vh;
+	font-size: 20px;
+}
+.centre{
+	text-align: center;
+}
+.h2_G{
+	margin-block-start: 0;
+	padding-top: 45px;
+	font-size: 35px;
+	text-align: center;	
+}
+html,
+body {
+
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*                                                                              *************/
+
+.header{
+	overflow:hidden;
+	width: 100%;
+	height: 60px;
+	position: relative;
+	background-color: #311452;
+}
+.text {
+    font-size: 25px;
+    padding-left: 19px;
+    padding-top: 25px;
+	position: absolute;
+    color: #fafafa;
+}
+.nav{
+	padding-right: 20px;
+ 	padding-top: 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: right;
+}
+.nav_a{
+	vertical-align:  top;
+	margin: 0 9px;
+	color:#fff;
+	text-decoration: none;
+}
+.nav_a:hover{
+	color:#555;
+	transition: 0.5s;
+}
+
+/*                                                                              *************/
+
+.list1{
+	overflow:hidden;
+	color: #fff;
+	height: 100vh;
+	width: 100%;
+	background: url("img/bag.jpg") no-repeat center;
+	background-size: cover;
+}
+.h1_list1{
+	margin-block-start: 0;
+	padding-top: 100px;
+	font-size: 15vh;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+}
+.p_list1{
+	color: #fff;
+	font-size: 5vh;
+	text-align: center;
+}
+.img_list1{
+	position: relative;
+	height: 7vh;
+	display:block;
+    margin: auto;
+}
+
+.img_list1:hover{
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+/*                                                                              *************/
+
+.list4{
+	overflow:hidden;
+	color: #000;
+	margin: 0;
+	padding: 0;	
+	height: 500px;
+	width: 100%;
+}
+.del{
+	line-height:20px;
+	margin: 1%;
+	overflow:hidden;
+	float: left;
+	width: 46%;
+	height: 300px;
+	border:7px #e5e5e5  solid;
+	border-radius: 10px;
+	background-color:#ececec; 
+}
+.thep_kodi{
+	float: left;
+	padding: 10px;	
+	height: 280px;
+}
+.ico_list4{
+	margin-top: 1vh;
+	overflow:hidden;
+	float: left;
+	width: 20vh;
+	height: 20vh;
+}
+/* Хрень но пусть так */
+.ico_list4{
+	margin-top: 1vh;
+	overflow:hidden;
+	float: left;
+	width: 20vh;
+	height: 20vh;
+}
+
+.ico{
+	padding: 1vh;
+	float: left;
+	width: 4vh;
+	height: 4vh;
+}
+
+/*                                                                              *************/
+
+.The_end{
+	overflow:hidden;
+	margin: 0;
+	padding: 0;	
+	color: #fff;	
+	height: 200px;
+	width: 100%;
+	background: #7e7d7e;	
+}
+.h2_The_end{
+	margin-block-start: 0;
+	padding-top: 25px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Solway', serif;
+}
+.CopP{
+	font-size: 25px;
+	text-align: right;
+	padding-right:  40px;
+}
+.img_logo_P{
+	padding: 0.5%;
+	height: 40px;
+	opacity: 1;
+}
+.img_logo_P:hover{
+	transition: 0.5s;
+	opacity: 0.5;
+}
+
+	}
+		}
+
+
+
+
+
