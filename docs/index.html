@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>IPT-273ºC</title>
+  <meta name=”description” content=”Небольшая команда работающая на фрилансе“/>
+  <meta name="yandex-verification" content="f2db42ee5d364e2e" />
+<link rel="stylesheet" type="text/css" href="css.css">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Exo+2|Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="main.js" ></script> 
+<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 600);
+    });
+});
+</script>
+</head>
+<body onload="start()">
+ <header class="header"> <div class="text"><script src="index.js"></script></div>
+<nav class="nav" id="menu">
+        <a class="nav_a" href="#list2">О нас</a>
+        <a class="nav_a" href="#list3">Наши услуги</a>
+        <a class="nav_a" href="#list4">Наши Контакты</a>
+        <a class="nav_a" href="#list5">Проекты</a>
+      </nav>
+   </header>
+  <div class="list1">
+    <h1 class="h1_list1">IPT-273 ºC</h1>
+    <p class="p_list1">Подробнее</p>
+    <a href="#list2"  id="menu" ><img class="img_list1" src="img/vec_down_arrow.png"></a>
+  </div>
+
+  <div class="list2" id="list2">
+    <h2 class="h2_G">О нас</h2>
+      <div class="text-block">
+        <p>Мы небольшая команда по обработка фото, монтажу и верстке сайтов. Мы занимаемся этим уже более 2-х лет. Мы готовы разработать и создать дизайн для вашего сайта, обработать ваше фото или видео. Дизайн и проектирование сложных информационных сервисов. Только современный, качественный и уникальный дизайн.
+        В краткие сроки. Качественно. Со вкусом.</p>
+      </div>
+
+  </div>
+    <div class="list3" id="list3"  >
+    <h2 class="h2_G">Наши услуги</h2>
+    <div class="services">
+      <div class="photoshop" id="photoshop">
+        <h3 class="centre">Обработка фото</h3>
+       <p class="centre"> <span class="question">Цена: </span> <span class="answer">150-1000 рублей </span></p>
+       <p class="centre"> <span class="question">Сроки: </span> <span class="answer">1-5 дней</span></p>
+        <p class="centre"><img class="ico_photo" src="img/photoshop.png"></p>
+      </div>      
+
+      <div class="montage" id="montage">
+                <h3 class="centre">Монтаж</h3>
+       <p class="centre"> <span class="question">Цена: </span> <span class="answer">500-5000 рублей </span></p>
+       <p class="centre"> <span class="question">Сроки: </span> <span class="answer">1-5 дней</span></p>
+       <p class="centre"><img class="ico_photo" src="img/finalcuthero@2x.png"></p>
+      </div> 
+
+      <div class="WEB-design" id="WEB-design">
+                        <h3 class="centre">Создание сайта или доработка</h3>
+       <p class="centre"> <span class="question">Цена: </span> <span class="answer">500-21000 рублей </span></p>
+       <p class="centre"> <span class="question">Сроки: </span> <span class="answer">5-14 дней</span></p>
+       <p class="centre"><img class="ico_photo" src="img/xjcjvzdnr3rn1g.png"></p>
+      </div> 
+
+    </div>
+    
+
+  </div>
+    <div class="list4" id="list4">
+    <h2 class="h2_G">Контакты</h2>
+    <div class="del">
+      <a href="index4.html"><img class="thep_kodi" src="img/kodi3.png"></a>
+            <h3 class="centre">Артём Шаповалов</h3>
+      <p><span class="question"> Возраст:</span><span class="answer"> 17 Лет</span> </p>
+      <P><span class="question"> Город:</span><span class="answer"> Тюмень</span></P>
+      <p><span class="question"> Увлечения:</span> <span class="answer"> Motion graphics, WEB-Дизайн</span></p> 
+      <p><span class="question">Ссылки:</span></p>
+       <div class="ico_list4">
+        
+        
+      <a href="https://vk.com/j3blcota"><img class="ico" src="img/ico_vk.png"></a>
+      <a href="https://www.instagram.com/_lil__l/"><img class="ico" src="img/ico_inst.png"></a>
+      <a href="https://www.youtube.com/channel/UCGle7S0yG55ucD9wQoTWnsA"><img class="ico" src="img/ico_youtube.png"></a>
+      </div>
+    </div>
+    <div class="del ">
+           <img class="thep_kodi" src="img/O8Ug9CZ-9mM.jpg"> 
+      <h3 class="centre">Пётр Кривощёков</h3>
+      <p><span class="question"> Возраст:</span><span class="answer"> 18 Лет</span> </p>
+      <P><span class="question"> Город:</span><span class="answer"> Санкт-Петербург</span></P>
+      <p><span class="question"> Увлечения:</span > <span class="answer"> WEB-Дизайн, Motion graphics</span></p>
+      <p><span class="question">Ссылки:</span></p>
+      <div class="ico_list4">
+        
+        
+      <a href="https://vk.com/krivaschekov"><img class="ico" src="img/ico_vk.png"></a>
+      <a href="https://www.instagram.com/thepetruha/"><img class="ico" src="img/ico_inst.png"></a>
+      <a href="https://www.youtube.com/channel/UCuvnKk0tiVOlqAgv6QCkHMA?view_as=subscriber"><img class="ico" src="img/ico_youtube.png"></a>
+      </div>
+    </div>
+
+  </div>
+    <div class="list5" id="list5">
+    <h2 class="h2_G">Наши проекты </h2>
+
+
+  </div>
+   </div>
+
+    <div class="The_end">
+    <h2 class="h2_The_end">IPT-273ºC</h2>
+    <p class="centre"><a href="https://vk.com/j3blcota"><img class="img_logo_P" src="img/vk_logo.png"></a>
+    <a href="https://www.instagram.com/_lil__l/"><img class="img_logo_P" src="img/in_logo.png"></a></p>
+    <p class="CopP">2019 © Copyright IPT-273ºC. Design by IPT-273ºC.</p>
+  </div>
+
+
+
+</body>
+</html>
